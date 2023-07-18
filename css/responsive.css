@@ -1,0 +1,42 @@
+/*responsive area of navbar section in x-small device*/
+@media screen and (max-width: 576px) {
+    .header-navber{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navber-list{
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+}
+
+
+
+
+/*responsive area of navbar section in x-small device*/
+
+/*responsive area of navbar section in small device*/
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .header-navber{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navber-list{
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+}
+
+/*responsive area of navbar section in small device*/
+
+/*responsive area of navbar section in medium device*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .header-navber{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+/*responsive area of navbar section in medium device*/

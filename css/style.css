@@ -1,0 +1,70 @@
+/*universal area design start*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*universal area design end*/
+
+
+/*header area style start*/
+.header-navber{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navber-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.navber-logo, .logo{
+    width: 40px;
+}
+.navber-logo, .gamer{
+    font-size: 25px;
+    font-weight: 700;
+    color: #ff42af;
+}
+.logo-header{
+    color: #0B0223;
+    font-size: 25px;
+    font-weight: 700;
+}
+.navber-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.navber-list, .list-item{
+    list-style: none;
+}
+.list-item a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+ .navber-list .follow-us{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 5px;
+ }
+ .fa-brands.fa-youtube{
+    margin: 0 10px;
+    color: red;
+ }
+ .list-item a:hover{
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 5px;
+ }
+/*header area style end*/
