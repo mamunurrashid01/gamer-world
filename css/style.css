@@ -271,3 +271,114 @@ strong{
     line-height: 20px;
 }
 /*play instant section style end*/
+
+/*online section style start*/
+
+.online-game-play-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -300px;
+    padding: 10px 129px;
+    margin-bottom: 50px;
+}
+.online-game-image,.online-game-content{
+    width: 50%;
+}
+.online-game-image,.online-image{
+    width: 400px;
+}
+.online-image-relative{
+    transform: scaleX(0.6) scaleY(0.6) translateX(350px) translateY(-340px);
+}
+.online-game-content {
+    margin-top: -260px;
+    padding-left: 61px;
+}
+.online-game-header{
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.online-game-span{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    background-clip: text;
+}
+.online-game-description{
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+/* online section style end*/
+
+/* career section style start*/
+.career-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 20px 80px;
+}
+.career{
+    width: 70%;
+}
+.career-img{
+    width: 30%;
+}
+.career-img,.career-image{
+    width: 400px;
+}
+.career-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.career-header, .career-description {
+    margin-left: 145px;
+  }
+  .career-country {
+    text-align: right;
+  }
+  .career-header{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .career-description {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .pre-service-section{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .career-country{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .career-btn {
+    position: relative;
+    left: 149px;
+    top: -13px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: #FFF;
+    color: #F948B2;
+  }
