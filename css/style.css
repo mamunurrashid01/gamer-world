@@ -160,9 +160,8 @@ body{
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     color: transparent;
     background-clip: text;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
-    text-transform: uppercase;
     margin-top: 0;
 }
 .group-discription{
@@ -183,3 +182,92 @@ strong{
     font-weight: 500;
 }
 /*gamer group section style start*/
+
+/*funny video section style start*/
+
+.funny-video-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 15px 170px;
+}
+.funny-video,.funny{
+    width: 230px;
+    height: 270px;
+    border-radius: 8px;
+}
+.funny-header,.funny-discription{
+    text-align: center;
+}
+.funny-header{
+    color: #0B0223;
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 0;
+ }
+ .funny-span{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    background-clip: text;
+    font-weight: 700;
+ }
+ .funny-discription{
+    margin-top: 0;
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+ }
+ .funny-video,caption{
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+ }
+/*funny video section style end*/
+
+/*play instant section style start*/
+.play-instantly{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.instant-image{
+    width: 50%;
+    padding:20px 0 0 90px;
+}
+.instant-img{
+    width: 400px;
+}
+.instant-relative{
+    transform: scaleX(0.6) scaleY(0.6) translateX(-200px) translateY(-450px);
+}
+.play-content{
+    width: 50%;
+    padding: 20px 10px 406px 189px;
+    text-align: right;
+}
+.play{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    background-clip: text;
+    line-height: 40px;
+}
+.play-content-header{
+    color: #0B0223;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+.play-description{
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+/*play instant section style end*/
