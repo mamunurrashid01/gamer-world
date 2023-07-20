@@ -406,7 +406,6 @@ caption {
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    /* padding: 20px 80px; */
     margin-top: -271px;
     padding: 40px 15px;
 }
@@ -570,6 +569,7 @@ caption {
 .footer-logo,
 .logof {
     width: 40px;
+    color: #F948B2;
 }
 
 .footer-logo,
