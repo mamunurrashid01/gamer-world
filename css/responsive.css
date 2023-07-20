@@ -8,7 +8,151 @@
         flex-direction: column;
         gap: 15px;
     }
-    
+    .banner-section{
+        flex-direction: column;
+    }
+    .banner-content {
+        width: 100%;
+        padding: 10px 15px;
+        text-align: center;
+      }
+      .banner-image {
+        width: 100%;
+        padding: 10px 15px;
+        margin: auto;
+        text-align: center;
+      }
+      .gamer-group-container {
+        flex-direction: column;
+        padding: 10px 15px;
+        margin-bottom: 40px;
+      }
+      .group-container {
+        text-align: center;
+      }
+      .gamer-group-image {
+        width: 100%;
+        margin: auto;
+      }
+      .funny-video-container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        padding: 10px 15px;
+        width: 100%;
+        margin: auto;
+        gap: 50px;
+      }
+      .funny-video, .funny {
+        border-radius: 8px;
+      }
+      .funny-header, .funny-discription {
+        text-align: center;
+        padding: 10px 15px;
+      }
+      .funny-btn {
+        position: relative;
+        top: -150px;
+        left: -40px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background: none;
+          background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(104, 76, 76, 0.438);
+        color: #fff;
+      }
+      .play-instantly {
+        flex-direction: column;
+        margin-bottom: -300px;
+      }
+      .play-content {
+        width: 100%;
+        padding: 10px 15px;
+        text-align: center;
+        margin: 20px 0;
+      }
+      .instant-image {
+        width: 100%;
+        margin: auto;
+        padding: 10px 15px;
+      }
+      .instant-img {
+        width: 100%;
+        margin: auto;
+      }
+      .instant-relative {
+        transform: scaleX(0.6) scaleY(0.6) translateX(-100px) translateY(-450px);
+      }
+      .online-game-play-section {
+        flex-direction: column-reverse;
+        margin-top: -300px;
+        padding: 10px 15px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 50px;
+      }
+      .online-game-image, .online-image {
+        width: 100%;
+        margin: auto;
+      }
+      .online-game-content {
+        width: 100%;
+        margin: auto;
+        margin-top: -40px;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+      .career-container{
+        flex-direction: column;
+      }
+      .career-container {
+        padding: 10px 15px;
+        margin-top: -271px;
+      }
+      .career {
+        width: 100%;
+      }
+      .career-header, .career-description {
+        margin-left: 0px;
+        padding-left:10px 15px;
+      }
+      .career-header, .career-description {
+        padding-left: 0px;
+      }
+      .career-list{
+        width: 100%;
+        margin: auto;
+      }
+      .career-btn {
+        position: relative;
+        left: 0px;
+      }
+      .primary-label-game {
+        margin-top: 40px;
+        padding: 10px 20px;
+        flex-wrap: wrap;
+      }
+      .secondary-label-game {
+        padding: 10px 15px;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+      }
+      .footer-menu {
+        color: #fff;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .social-media-icon{
+        flex-wrap: wrap;
+      }
+      .footer-des-span{
+         display: block;
+      }
+      .career-img, .career-image {
+        width: 100%;
+      }
 }
 
 
@@ -17,7 +161,7 @@
 /*responsive area of navbar section in x-small device*/
 
 /*responsive area of navbar section in small device*/
-@media screen and (min-width: 576px) and (max-width: 768px){
+@media screen and (min-width: 576px) and (max-width: 992px){
     .header-navber{
         flex-direction: column;
         text-align: center;
@@ -26,17 +170,155 @@
         flex-direction: column;
         gap: 15px;
     }
+    .banner-section{
+      flex-direction: column;
+  }
+  .banner-content {
+      width: 100%;
+      padding: 10px 15px;
+      text-align: center;
+    }
+    .banner-image {
+      width: 100%;
+      padding: 10px 15px;
+      margin: auto;
+      text-align: center;
+    }
     
+    .gamer-group-container {
+      flex-direction: column;
+      padding: 10px 15px;
+      margin-bottom: 40px;
+    }
+    .group-container {
+      text-align: center;
+    }
+    .gamer-group-image {
+      width: 100%;
+      margin: auto;
+    }
+    .funny-video-container {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+      padding: 10px 15px;
+      width: 100%;
+      margin: auto;
+      gap: 50px;
+    }
+    .funny-video, .funny {
+      border-radius: 8px;
+    }
+    .funny-header, .funny-discription {
+      text-align: center;
+      padding: 10px 15px;
+    }
+    .funny-btn {
+      position: relative;
+      top: -150px;
+      left: 90px;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background: none;
+        background-color: rgba(0, 0, 0, 0);
+      background-color: rgba(104, 76, 76, 0.438);
+      color: #fff;
+    }
+    .play-instantly {
+      flex-direction: column;
+      margin-bottom: -300px;
+    }
+    .play-content {
+      width: 100%;
+      padding: 10px 15px;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .instant-image {
+      width: 100%;
+      margin: auto;
+      padding: 10px 15px;
+    }
+    .instant-img {
+      width: 100%;
+      margin: auto;
+    }
+    .instant-relative {
+      transform: scaleX(0.6) scaleY(0.6) translateX(-100px) translateY(-450px);
+    }
+    .online-game-play-section {
+      flex-direction: column-reverse;
+      margin-top: -300px;
+      padding: 10px 15px;
+      width: 100%;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+    .online-game-image, .online-image {
+      width: 100%;
+      margin: auto;
+    }
+    .online-game-content {
+      width: 100%;
+      margin: auto;
+      margin-top: -40px;
+      margin-bottom: 0px;
+      text-align: center;
+    }
+    .career-container{
+      flex-direction: column;
+    }
+    .career-container {
+      padding: 10px 15px;
+      margin-top: -271px;
+    }
+    .career {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .career-header, .career-description {
+      margin-left: 0px;
+      padding-left:10px 15px;
+    }
+    .career-header, .career-description {
+      padding-left: 0px;
+    }
+    .career-list{
+      width: 100%;
+      margin: auto;
+      left: 0px;
+    }
+    .career-btn {
+      position: relative;
+      left: 30px;
+    }
+    .primary-label-game {
+      margin-top: 40px;
+      padding: 10px 20px;
+      flex-wrap: wrap;
+    }
+    .secondary-label-game {
+      padding: 10px 15px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+    .footer-menu {
+      color: #fff;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .social-media-icon{
+      flex-wrap: wrap;
+    }
+    .footer-des-span{
+       display: block;
+    }
+    .career-img, .career-image {
+      width: 100%;
+    }
 }
 
 /*responsive area of navbar section in small device*/
 
-/*responsive area of navbar section in medium device*/
-@media screen and (min-width: 768px) and (max-width: 992px){
-    .header-navber{
-        flex-direction: column;
-        text-align: center;
-    }
-    
-}
-/*responsive area of navbar section in medium device*/
